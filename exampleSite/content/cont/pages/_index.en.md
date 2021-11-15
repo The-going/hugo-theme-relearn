@@ -39,7 +39,7 @@ content
 `_index.md` is required in each folder, it’s your “folder home page”
 {{% /notice %}}
 
-## Types
+## Types {#types}
 
 The Relearn theme defines two types of pages. *Default* and *Chapter*. Both can be used at any level of the documentation, the only difference being layout display.
 
@@ -88,7 +88,7 @@ hugo new site <new_project>
 
 The Relearn theme provides [archetypes]({{%relref "cont/archetypes" %}}) to help you create this kind of pages.
 
-## Front Matter configuration
+## Front Matter configuration {#front-matter-config}
 
 Each Hugo page has to define a [Front Matter](https://gohugo.io/content/front-matter/) in *toml*, *yaml* or *json*. This site will use *toml* in all cases.
 
@@ -120,7 +120,7 @@ LastModifierEmail = ""
 +++
 ```
 
-### Add icon to a menu entry
+### Add icon to a menu entry {#add-icon-to-menu}
 
 In the page frontmatter, add a `pre` param to insert any HTML code before the menu label. The example below uses the GitHub icon.
 
@@ -146,7 +146,7 @@ weight = 5
 +++
 ```
 
-### Using a custom title for menu entries
+### Using a custom title for menu entries {#using-custom-title}
 
 By default, the Relearn theme will use a page's `title` attribute for the menu item (or `linkTitle` if defined).
 
@@ -162,7 +162,7 @@ menuTitle = "Linux"
 +++
 ```
 
-### Override expand state rules for menu entries
+### Override expand state rules for menu entries {#override-expand}
 
 You can change how the theme expands menu entries on the side of the content with the `alwaysopen` setting on a per page basis. If `alwaysopen=false` for any given entry, its children will not be shown in the menu as long as it is not necessary for the sake of navigation.
 
@@ -177,7 +177,7 @@ The theme generates the menu based on the following rules:
 
 You can see this feature in action on the example page for [children shortcode]({{< relref "shortcodes/children" >}}) and its children pages.
 
-## Your Page
+## Your Page {#your-page}
 
 To configure your page, you basically have three choices:
 

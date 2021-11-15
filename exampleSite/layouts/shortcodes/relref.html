@@ -1,0 +1,24 @@
+<!-- Caller's current path and laguage ID for debugging -->
+{{- $curpathf := $.Page.File -}}
+{{- $lng := (.Site.Language.Lang) -}}
+<!-- First we need to initialize the necessary variables -->
+{{- $spls := (split (.Get 0) "#") -}}
+{{- $filepath := index $spls 0 -}}
+{{- $pagepath := replaceRE "/(_index([.].*[^.])?)?[.]md" "/" $filepath -}}
+{{- $anchor := index $spls 1 -}}
+{{- with .Site.GetPage (trim $pagepath "/") -}}
+	<!-- Get the Anchor if it exists in page -->
+	{{- if index $spls 1 -}}
+		{{- if in (.Content) $anchor -}}
+			{{- .RelPermalink -}}{{- printf "#%s" $anchor -}}
+		{{- else -}}
+			{{ warnf "[%s]: The anchor [#%s] for page [%s] was not received. Calling from: %s file" $lng $anchor $pagepath $curpathf }}
+			{{- .RelPermalink -}}
+		{{- end -}}
+	{{- else -}}
+		{{- .RelPermalink -}}
+	{{- end -}}
+{{- else -}}
+    {{ warnf "[%s]: Don't .GetPage with [%s] argument. Calling from: %s file" $lng $pagepath $curpathf }}
+    {{ printf "**Bad link**" }}
+{{- end -}}

@@ -5,33 +5,38 @@ weight = 3
 
 ## The page for test link
 
-Good text end Good link
-```text
-[Content]({{\% relref "/cont/_index.en.md#content" \%}})
+Good text end Good link `[Content]({{% newrelref "/cont/_index.en.md#content" %}})`
+```mk
+[Content]({{% newrelref "/cont/_index.en.md#content" %}})
 ```
-[Content]({{% relref "/cont/_index.en.md#content" %}}) good link
+- [Types]({{% relref "/cont/pages/_index.en.md#types" %}})
+- [Types]({{% relref "/cont/pages/_index.md#types" %}})
 
-[Red variant]({{% relref "/basics/customization/_index.en.md#red-variant" %}}) good link
+- `newrelref` [Front Matter configuration]({{% newrelref "/cont/pages/_index.en.md#front-matter-config" %}})
+- `newrelref` [Front Matter configuration]({{% newrelref "/cont/pages/_index.md#front-matter-config" %}})
 
-[Red variant]({{% relref "/basics/customization/_index.en.md#rred-vvarriant" %}}) bad link
+- `relref` [Add icon to a menu entry]({{% relref "/cont/pages/_index.en.md#add-icon-to-menu" %}})
+- `relref` [Multilingual mode]({{< relref "/cont/menushortcuts.en.md#i18n" >}})
+- `relref` [Multilingual mode]({{< relref "/cont/menushortcuts.md#i18n" >}})
+
+- [Red variant]({{% relref "/basics/customization/_index.en.md#red-variant" %}}) `relref`
+- [Red variant]({{% newrelref "/basics/customization/_index.en.md#red-variant" %}}) `newrelref`
 
 ---
 
-good path bad link `[Basic configuration]({{\% relref "/cont/menushortcuts.en.md#bassiccc-config" \%}})`
-[Basic configuration]({{< relref "/cont/menushortcuts.en.md#bassiccc-config" >}}) link to page
-`#bassiccc-config` link and WARN is not exist,
+- en [Basic configuration]({{% newrelref "/cont/menushortcuts.en.md#basic-config" %}})
+- [Basic configuration]({{% newrelref "/cont/menushortcuts.md#basic-config" %}})
 
 ---
-
-good path good link `[Multilingual mode]({{\< relref "/cont/menushortcuts.en.md#i18n" \>}})`
-#### relref: ({{< relref "/cont/menushortcuts.en.md#i18n" >}})
-[Multilingual mode]({{< relref "/cont/menushortcuts.en.md#i18n" >}})
-- link to page only, no WARN
+#### newrelref en: ({{< newrelref "/cont/menushortcuts.en.md#i18n" >}})
+  - [Multilingual mode]({{< newrelref "/cont/menushortcuts.en.md#i18n" >}})
 ---
 
-page is not exist `[Multilingual mode]({{\% relref "/cont/menu-shortcustt.en.md#i18n" \%}})`
-#### relref: ({{< relref "/cont/menu-shortcustt.en.md#i18n" >}})
-[Multilingual mode]({{< relref "/cont/menu-shortcustt.en.md#i18n" >}})
-- link to `http://localhost:1313/cont/test-page/` and WARN
+#### newrelref: ({{< newrelref "/cont/menushortcuts.md#i18n" >}})
+  - [Multilingual mode]({{< newrelref "/cont/menushortcuts.md#i18n" >}})
+
+#### newrelref: ({{< newrelref "/cont/menu-shortcuuts.en.md#i18n" >}})
+
+- `newrelref` [Multilingual mode]({{< newrelref "/cont/menu-shortcuuts.en.md#i18n" >}})
 
 ---
