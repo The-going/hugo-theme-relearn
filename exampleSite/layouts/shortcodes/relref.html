@@ -6,19 +6,32 @@
 {{- $filepath := index $spls 0 -}}
 {{- $pagepath := replaceRE "/(_index([.].*[^.])?)?[.]md" "/" $filepath -}}
 {{- $anchor := index $spls 1 -}}
-{{- with .Site.GetPage (trim $pagepath "/") -}}
-	<!-- Get the Anchor if it exists in page -->
-	{{- if index $spls 1 -}}
-		{{- if in (.Content) $anchor -}}
-			{{- .RelPermalink -}}{{- printf "#%s" $anchor -}}
+{{- if index $spls 0 -}}
+	{{- with .Site.GetPage (trim $pagepath "/") -}}
+		<!-- Get the Anchor if it exists in page -->
+		{{- if index $spls 1 -}}
+			{{- if in (.Content) $anchor -}}
+				{{- .RelPermalink -}}{{- printf "#%s" $anchor -}}
+			{{- else -}}
+				{{ warnf "[%s]: The anchor [#%s] for page [%s] was not received. Calling from: %s file" $lng $anchor $pagepath $curpathf }}
+				{{- .RelPermalink -}}
+			{{- end -}}
 		{{- else -}}
-			{{ warnf "[%s]: The anchor [#%s] for page [%s] was not received. Calling from: %s file" $lng $anchor $pagepath $curpathf }}
 			{{- .RelPermalink -}}
 		{{- end -}}
 	{{- else -}}
-		{{- .RelPermalink -}}
+		{{ warnf "[%s]: Don't .GetPage with [%s] argument. Calling from: %s file" $lng $pagepath $curpathf }}
+		{{ printf "**Bad link**" }}
 	{{- end -}}
 {{- else -}}
-    {{ warnf "[%s]: Don't .GetPage with [%s] argument. Calling from: %s file" $lng $pagepath $curpathf }}
-    {{ printf "**Bad link**" }}
+	{{- with .Site.GetPage (.Page) -}}
+		{{- if in (.Content) $anchor -}}
+			{{- .RelPermalink -}}{{- printf "#%s" $anchor -}}
+		{{- else -}}
+			{{ warnf "[%s]: For page itself anchor [#%s] was not received. Calling from: %s file" $lng $anchor $curpathf }}
+			{{- .RelPermalink -}}
+		{{- end -}}
+	{{- else -}}
+		{{ warnf "[%s]: Don't .GetPage with [%s] argument. Calling from: %s file" $lng (.Page) $curpathf }}
+	{{- end -}}
 {{- end -}}
