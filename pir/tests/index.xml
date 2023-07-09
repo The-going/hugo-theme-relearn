@@ -5,7 +5,7 @@
     <link>https://The-going.github.io/hugo-theme-relearn/pir/tests/index.html</link>
     <description>Recent content in Tests on Cap&#39;n Hugo Relearrrn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://The-going.github.io/hugo-theme-relearn/pir/tests/index.xml" rel="self" type="application/rss+xml" />
+    <language>pir</language><atom:link href="https://The-going.github.io/hugo-theme-relearn/pir/tests/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Attachments Shorrrtcode Test</title>
       <link>https://The-going.github.io/hugo-theme-relearn/pir/tests/attach/index.html</link>
@@ -42,6 +42,37 @@ What about wrapp&#39;n long inline code if multiple sections be written side567/
 Marrrkdown Resource SVG Relative t&#39; plank Relative t&#39; plank up level Static SVG External fully qualified External without scheme External without scheme an&#39; scheme separator HTML Resource SVG Relative t&#39; plank Relative t&#39; plank up level Static SVG External fully qualified External without scheme External without scheme an&#39; scheme separator </description>
     </item>
     <item>
+      <title>Lists</title>
+      <link>https://The-going.github.io/hugo-theme-relearn/pir/tests/lists/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://The-going.github.io/hugo-theme-relearn/pir/tests/lists/index.html</guid>
+      <description>Plain one
+two
+two
+an&#39; a half
+three
+Attachments one
+two
+Attachments Attachments three
+Badge one
+two
+Awesome Awesome three
+Button one
+two
+Get Cap&#39;n Hugo Get Cap&#39;n Hugo three
+Children one
+two
+three
+Expand one
+two
+Expand me&amp;hellip; Thank ye! Expand me&amp;hellip; Thank ye! three
+Ay&#39;con one
+two
+three
+Include one two Ye can add standard markdown rules:
+multiple paragraphs bullet point lists emphasized, bold an&#39; even bold emphasized text links etc.</description>
+    </item>
+    <item>
       <title>Tables</title>
       <link>https://The-going.github.io/hugo-theme-relearn/pir/tests/tables/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,7 +88,8 @@ HTML Line II i Marrrkdown Multicell I Marrrkdown Multicell II Head&#39;ns i HTML
       <link>https://The-going.github.io/hugo-theme-relearn/pir/tests/frontmatter/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://The-going.github.io/hugo-theme-relearn/pir/tests/frontmatter/index.html</guid>
-      <description>Empty Properties Attachments Expand me... aa</description>
+      <description> Empty Properties Attachments Expand me&amp;hellip; aa
+&amp;#8203; &amp;#8203; &amp;#8203; &amp;#8203; &amp;#8203; </description>
     </item>
     <item>
       <title>Width</title>

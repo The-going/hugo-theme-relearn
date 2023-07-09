@@ -5,7 +5,7 @@
     <link>https://The-going.github.io/hugo-theme-relearn/pir/basics/index.html</link>
     <description>Recent content in Basics on Cap&#39;n Hugo Relearrrn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://The-going.github.io/hugo-theme-relearn/pir/basics/index.xml" rel="self" type="application/rss+xml" />
+    <language>pir</language><atom:link href="https://The-going.github.io/hugo-theme-relearn/pir/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s New</title>
       <link>https://The-going.github.io/hugo-theme-relearn/pir/basics/migration/index.html</link>
@@ -31,7 +31,7 @@ Just download at least version 0.95.0 o&#39; th&#39; Cap&#39;n Hugo binary fer y
       <guid>https://The-going.github.io/hugo-theme-relearn/pir/basics/installation/index.html</guid>
       <description>Th&#39; follow&#39;n steps be here t&#39; help ye initialize yer new website. If ye don&amp;rsquo;t know Cap&#39;n Hugo at all, we strongly suggest ye learn more about it by follow&#39;n this great documentat&#39;n fer beginners.
 Create yer project Cap&#39;n Hugo provides a new command t&#39; create a new website.
-hugo new ship &amp;lt;new_project&amp;gt; Install th&#39; theme Install th&#39; Relearrrn theme by follow&#39;n this documentat&#39;n us&#39;n Hugo&amp;rsquo;s module system.
+hugo new ship &amp;lt;new_project&amp;gt;Install th&#39; theme Install th&#39; Relearrrn theme by follow&#39;n this documentat&#39;n us&#39;n Hugo&amp;rsquo;s module system.
 This theme&amp;rsquo;s repository be: https://github.</description>
     </item>
     <item>
@@ -66,7 +66,7 @@ Th&#39; graph be interactive an&#39; reflect th&#39; current colors. Ye can clic
       <link>https://The-going.github.io/hugo-theme-relearn/pir/basics/history/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://The-going.github.io/hugo-theme-relearn/pir/basics/history/index.html</guid>
-      <description>Changelog 5.12.2 (2023-03-03) Fixes [bug] menu: fix state fer alwaysopen=false + collapsibleMenu=false #498 5.12.1 (2023-02-26) Enhancements [feature] variant: add relearn bright theme #493 Fixes [bug] generator: fix sett&#39;n o&#39; colors #494 5.12.0 (2023-02-24) Enhancements [feature] frontmatter: support VSCode Front Matter extension #481 [feature] theme: make expand an&#39; image ids st&#39;ble #477 [feature] variant: set scrollbar color t&#39; dark fer dark variants #471 [feature] i18n: add full RTL support #470 [feature] piratify: fix some quirks, arrr #469 [feature][change] theme: optimizat&#39;n fer huge screen sizes #466 Fixes [bug] i18n: write code ltr even fer rtl languages #492 [bug] anchor: fix link &#39;n FF when served from filesystem #482 [bug] shorrrtcodes: don&amp;rsquo;t break build an&#39; render fer invalid parameters #480 [bug] nav: restore scroll posit&#39;n on browser back #476 [bug] variant: avoid style leak fer auto style #473 Maintenance [task] build: add imagebot #485 5.</description>
+      <description>Changelog 5.17.1 (2023-06-22) Enhancements [feature][change] highlight: make copy t&#39; clipboard appear on hover #574 5.17.0 (2023-06-22) Enhancements [feature] highlight: add configur&#39;ble line breaks #169 Fixes [bug] theme: support Cap&#39;n Hugo 0.114.0 #573 [bug] taxonomy: fix number tags #570 [bug] highlight: improve copy t&#39; clipboard #569 5.16.2 (2023-06-10) Enhancements [feature] theme: revamp 404 plank #566 5.16.1 (2023-06-09) Enhancements [feature] theme: add deprecat&#39;n warnings #565 Fixes [bug] mermaid: allow fer YAML frontmatter inside o&#39; graph #564 [bug] alias: fix redirect URLs &#39;n case o&#39; empty BaseURL #562 5.</description>
     </item>
   </channel>
 </rss>
