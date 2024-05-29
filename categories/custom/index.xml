@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>custom on Hugo Relearn Theme</title>
-    <link>https://The-going.github.io/hugo-theme-relearn/categories/custom/index.html</link>
-    <description>Recent content in custom on Hugo Relearn Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://The-going.github.io/hugo-theme-relearn/categories/custom/index.xml" rel="self" type="application/rss+xml" />
+    <title>Custom :: Category :: Hugo Relearn Theme</title>
+    <link>https://mcshelby.github.io/hugo-theme-relearn/categories/custom/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://mcshelby.github.io/hugo-theme-relearn/categories/custom/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Customization</title>
-      <link>https://The-going.github.io/hugo-theme-relearn/basics/customization/index.html</link>
+      <title>Branding</title>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/branding/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://The-going.github.io/hugo-theme-relearn/basics/customization/index.html</guid>
-      <description>The Relearn theme has been built to be as configurable as possible by defining multiple partials
-In themes/hugo-theme-relearn/layouts/partials/, you will find all the partials defined for this theme. If you need to overwrite something, don&amp;rsquo;t change the code directly. Instead follow this page. You&amp;rsquo;d create a new partial in the layouts/partials folder of your local project. This partial will have the priority.
-This theme defines the following partials :
-header.html: the header of the page.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/branding/index.html</guid>
+      <description>The Relearn theme provides configuration options to change your site’s colors, favicon and logo.</description>
     </item>
   </channel>
 </rss>

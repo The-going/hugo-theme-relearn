@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basics on Hugo Relearn Theme</title>
-    <link>https://The-going.github.io/hugo-theme-relearn/basics/index.html</link>
-    <description>Recent content in Basics on Hugo Relearn Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://The-going.github.io/hugo-theme-relearn/basics/index.xml" rel="self" type="application/rss+xml" />
+    <title>Basics :: Hugo Relearn Theme</title>
+    <link>https://mcshelby.github.io/hugo-theme-relearn/basics/index.html</link>
+    <description>Discover what this Hugo theme is all about and the core-concepts behind it.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://mcshelby.github.io/hugo-theme-relearn/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s New</title>
-      <link>https://The-going.github.io/hugo-theme-relearn/basics/migration/index.html</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/migration/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://The-going.github.io/hugo-theme-relearn/basics/migration/index.html</guid>
-      <description>This document shows you what&amp;rsquo;s new in the latest release. For a detailed list of changes, see the history page.
-0.95.0 The minimum required Hugo version.
-Breaking A change that requires action by you after upgrading to assure the site is still functional.
-Change A change in default behavior that may requires action by you if you want to revert it.
-New Marks new behavior you might find interesting or comes configurable.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/migration/index.html</guid>
+      <description>This document shows you what’s new in the latest release and flags it with one of the following badges.</description>
     </item>
     <item>
       <title>Requirements</title>
-      <link>https://The-going.github.io/hugo-theme-relearn/basics/requirements/index.html</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/requirements/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://The-going.github.io/hugo-theme-relearn/basics/requirements/index.html</guid>
-      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.
-Just download at least version 0.95.0 of the Hugo binary for your OS (Windows, Linux, Mac).</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/requirements/index.html</guid>
+      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.</description>
     </item>
     <item>
       <title>Installation</title>
-      <link>https://The-going.github.io/hugo-theme-relearn/basics/installation/index.html</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/installation/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://The-going.github.io/hugo-theme-relearn/basics/installation/index.html</guid>
-      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this great documentation for beginners.
-Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt;Install the theme Install the Relearn theme by following this documentation using Hugo&amp;rsquo;s module system.
-This theme&amp;rsquo;s repository is: https://github.com/McShelby/hugo-theme-relearn.git</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/installation/index.html</guid>
+      <description>The following steps are here to help you initialize your new website.</description>
     </item>
     <item>
       <title>Configuration</title>
-      <link>https://The-going.github.io/hugo-theme-relearn/basics/configuration/index.html</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://The-going.github.io/hugo-theme-relearn/basics/configuration/index.html</guid>
-      <description>Global site parameters On top of Hugo global configuration, the Relearn theme lets you define the following parameters in your config.toml (here, values are default).
-Note that some of these parameters are explained in details in other sections of this documentation.
-[params] # This controls whether submenus will be expanded (true), or collapsed (false) in the # menu; if no setting is given, the first menu level is set to false, all others to true; # this can be overridden in the pages frontmatter alwaysopen = true # Prefix URL to edit current page.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html</guid>
+      <description>On top of Hugo’s global configuration options, the Relearn theme lets you define further options unique to the theme in your hugo.</description>
+    </item>
+    <item>
+      <title>Branding</title>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/branding/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/branding/index.html</guid>
+      <description>The Relearn theme provides configuration options to change your site’s colors, favicon and logo.</description>
     </item>
     <item>
       <title>Customization</title>
-      <link>https://The-going.github.io/hugo-theme-relearn/basics/customization/index.html</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/customization/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://The-going.github.io/hugo-theme-relearn/basics/customization/index.html</guid>
-      <description>The Relearn theme has been built to be as configurable as possible by defining multiple partials
-In themes/hugo-theme-relearn/layouts/partials/, you will find all the partials defined for this theme. If you need to overwrite something, don&amp;rsquo;t change the code directly. Instead follow this page. You&amp;rsquo;d create a new partial in the layouts/partials folder of your local project. This partial will have the priority.
-This theme defines the following partials :
-header.html: the header of the page.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/customization/index.html</guid>
+      <description>Usage scenarios The theme is usable in different scenarios, requiring the following mandatory settings in your hugo.</description>
     </item>
     <item>
       <title>Stylesheet generator</title>
-      <link>https://The-going.github.io/hugo-theme-relearn/basics/generator/index.html</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/generator/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://The-going.github.io/hugo-theme-relearn/basics/generator/index.html</guid>
-      <description>This interactive tool may help you to generate your own color variant stylesheet.
-Show usage instructions To get started, first select a color variant from the variant switch in the lower left sidebar that fits you best as a starting point.
-The graph is interactive and reflect the current colors. You can click on any of the colored boxes to adjust the respective color. The graph and the page will update accordingly.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/generator/index.html</guid>
+      <description>This interactive tool may help you to generate your own color variant stylesheet.</description>
+    </item>
+    <item>
+      <title>Topbar Modification</title>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/topbar/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/topbar/index.html</guid>
+      <description>The theme comes with a reasonably configured topbar.&#xA;Nevertheless, your requirements may differ from this configuration.</description>
     </item>
     <item>
       <title>History</title>
-      <link>https://The-going.github.io/hugo-theme-relearn/basics/history/index.html</link>
+      <link>https://mcshelby.github.io/hugo-theme-relearn/basics/history/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://The-going.github.io/hugo-theme-relearn/basics/history/index.html</guid>
-      <description>Changelog 5.17.1 (2023-06-22) Enhancements [feature][change] highlight: make copy to clipboard appear on hover #574 5.17.0 (2023-06-22) Enhancements [feature] highlight: add configurable line breaks #169 Fixes [bug] theme: support Hugo 0.114.0 #573 [bug] taxonomy: fix number tags #570 [bug] highlight: improve copy to clipboard #569 5.16.2 (2023-06-10) Enhancements [feature] theme: revamp 404 page #566 5.16.1 (2023-06-09) Enhancements [feature] theme: add deprecation warnings #565 Fixes [bug] mermaid: allow for YAML frontmatter inside of graph #564 [bug] alias: fix redirect URLs in case of empty BaseURL #562 5.</description>
+      <guid>https://mcshelby.github.io/hugo-theme-relearn/basics/history/index.html</guid>
+      <description>Changelog 6.0.0 (2024-04-27) Enhancements [feature][breaking] theme: unify description #845 [feature] schema: add schema support in meta data #844 [feature] include: use Hugo’s resources #835 [feature] math: allow to work with Hugo’s passthrough configuration #832 [feature] i18n: add Romanian translation #828 [feature][breaking] menu: remove menuTitle frontmatter #714 [feature][breaking] theme: end support for Internet Explorer 11 #584 Fixes [bug] frontmatter: move frontmatter config for exampleSite out of root #843 [bug] images: color outline using primary color #838 [bug][breaking] variant: avoid Hugo permission errors on build #831 [bug] theme: unwanted paragraph break with AsciiDoc #829 Maintenance [task][breaking] swagger: remove shortcode #847 [task][breaking] search: remove JSON outputformat for search index #846 [task] theme: sync to Hugo’s implementation #841 [task][change] fontawesome: update to 6.</description>
     </item>
   </channel>
 </rss>
